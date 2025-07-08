@@ -1,0 +1,27 @@
+{
+    "version": "4.5.2",
+    "description": "View USB devices in a tree-like structure",
+    "homepage": "https://www.uwe-sieber.de/usbtreeview_e.html",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.uwe-sieber.de/files/UsbTreeView_x64.zip",
+            "hash": "286402f97fb66c9bdb4250fa7c5b146dc6e68783f90d9fccb14f405a7072aea5"
+        },
+        "32bit": {
+            "url": "https://www.uwe-sieber.de/files/UsbTreeView_Win32_VC6.zip",
+            "hash": "5b34bbe314a8e9125db3a3f21ed4761a4239a9aab136531519136d55937d2e09"
+        }
+    },
+    "bin": "UsbTreeView.exe",
+    "shortcuts": [
+        [
+            "UsbTreeView.exe",
+            "USB Tree Viewer"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.uwe-sieber.de/usbtreeview_e.html",
+        "regex": "USB Device Tree Viewer V([\\d.-]+)"
+    }
+}

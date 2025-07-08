@@ -7,7 +7,7 @@
         "url": "https://github.com/leozide/leocad/blob/master/docs/COPYING.txt"
     },
     "url": "https://github.com/leozide/leocad/releases/download/v23.03/LeoCAD-Windows-23.03.exe#/dl.7z",
-    "hash": "1b4016a74c73b83558b2513796f02bf1c68239362202e4ba3f3bd062e9517f9b",
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "bin": "LeoCAD.exe",
     "shortcuts": [
         [

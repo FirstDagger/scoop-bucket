@@ -5,7 +5,7 @@
   "license": "GPL-2.0-only OR MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/tcobbs/ldview/releases/download/v4.6/LDView64-4600.exe#/dl.7z",
+      "url": "https://github.com/tcobbs/ldview/releases/download/v4.6/LDView64-4600.exe",
       "hash": "5f2988357be3c9fbed1c02923dd30884129d639064298b66d6d482d46f8450d1",
       "shortcuts": [
         [
@@ -15,7 +15,7 @@
       ]
     },
     "32bit": {
-      "url": "https://github.com/tcobbs/ldview/releases/download/v4.6/LDView-4600.exe#/dl.7z",
+      "url": "https://github.com/tcobbs/ldview/releases/download/v4.6/LDView-4600.exe",
       "hash": "ee0d6fa6964ca9f3ae779841520104d26af52855094c2d492760b6d7946c5ff4",
       "shortcuts": [
         [
@@ -34,10 +34,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/tcobbs/ldview/releases/download/v$version/LDView64-$matchShort.exe#/dl.7z"
+        "url": "https://github.com/tcobbs/ldview/releases/download/v$version/LDView64-$matchShort.exe"
       },
       "32bit": {
-        "url": "https://github.com/tcobbs/ldview/releases/download/v$version/LDView-$matchShort.exe#/dl.7z"
+        "url": "https://github.com/tcobbs/ldview/releases/download/v$version/LDView-$matchShort.exe"
       }
     }
   }

@@ -13,15 +13,33 @@
             "hash": "5b34bbe314a8e9125db3a3f21ed4761a4239a9aab136531519136d55937d2e09"
         }
     },
-    "bin": "UsbTreeView.exe",
+    "pre_install": [
+        "New-Item -Name UsbTreeView.ini -Path $dir | Out-Null"
+    ],
+    "persist": [
+        "UsbTreeView.ini"
+    ],
     "shortcuts": [
         [
             "UsbTreeView.exe",
-            "USB Tree Viewer"
+            "UsbTreeView"
         ]
     ],
     "checkver": {
-        "url": "https://www.uwe-sieber.de/usbtreeview_e.html",
-        "regex": "USB Device Tree Viewer V([\\d.-]+)"
+        "script": [
+            "(Invoke-WebRequest 'https://www.majorgeeks.com/files/details/usb_device_tree_viewer.html') -match 'USB Device Tree Viewer (?<version>[\\d.]+)' | Out-Null",
+            "$resp = $Matches['version']"
+        ],
+        "regex": "(?<version>[\\d.]+),(?<dlurl>.*\\.zip)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.uwe-sieber.de/files/UsbTreeView_x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.uwe-sieber.de/files/UsbTreeView_Win32_VC6.zip"
+            }
+        }
     }
 }

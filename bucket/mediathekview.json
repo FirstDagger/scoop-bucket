@@ -8,7 +8,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.mediathekview.de/stabil/MediathekView-latest-win.zip",
-            "hash": "6a984afb14bc596edd4e05ceb4e7da3fdbc57086f09e8b7b7e7e53d3c470d670"
+            "hash": "eb4d536be0ccd0c4fa82ab93c2fe15a17a3dfbe64c15ff925e471928421d9957"
         },
         "32bit": {
             "url": "https://download.mediathekview.de/stabil/MediathekView-latest-win32.zip",

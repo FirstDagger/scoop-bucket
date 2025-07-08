@@ -15,8 +15,8 @@
       ]
     },
     "32bit": {
-      "url": "https://github.com/tcobbs/ldview/releases/download/v4.6/LDView-4600.zip",
-      "hash": "65db73ab32af9ad356346efb66ea7314a6ec1830dd3238442ab6ad6220886f76",
+      "url": "https://github.com/tcobbs/ldview/releases/download/v4.6/LDView-4600.exe",
+      "hash": "ee0d6fa6964ca9f3ae779841520104d26af52855094c2d492760b6d7946c5ff4",
       "shortcuts": [
         [
           "LDView.exe",
@@ -37,7 +37,7 @@
         "url": "https://github.com/tcobbs/ldview/releases/download/v$version/LDView64-$matchShort.exe"
       },
       "32bit": {
-        "url": "https://github.com/tcobbs/ldview/releases/download/v$version/LDView-$matchShort.zip"
+        "url": "https://github.com/tcobbs/ldview/releases/download/v$version/LDView-$matchShort.exe"
       }
     }
   }
